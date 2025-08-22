@@ -24,7 +24,7 @@ jobs:
       default_port: "5000"
 # Usually you don't deal with all commits since the repository was created.
 # Increase if you e.g don't find a tag you want to display in the application
-#      fetch-depth: 10
+      fetch-depth: 1
       submodules: "true"
 #      herokuish_base_image: ghcr.io/acdh-oeaw/herokuish-for-cypress/main:latest-22
       APP_NAME: corpus-search
